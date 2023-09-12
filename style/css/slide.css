@@ -1,0 +1,106 @@
+/* CSS Document */
+
+
+
+            /*
+            .jssorn01 div           (normal)
+            .jssorn01 div:hover     (normal mouseover)
+            .jssorn01 .av           (active)
+            .jssorn01 .av:hover     (active mouseover)
+            .jssorn01 .dn           (mousedown)
+            */
+			.jssorn01{
+	position: absolute;
+	bottom: -30px;
+	right: 100px;
+
+				}
+			
+            .jssorn01 div, .jssorn01 div:hover, .jssorn01 .av
+            {
+	filter: alpha(opacity=70);
+	opacity: .7;
+	overflow: hidden;
+	cursor: pointer;
+	border: 1px solid #FFF;
+            }
+            .jssorn01 div {
+	background-color: #D1D0CE;
+	border-radius: 15px 50%x 15px 15px;
+}
+            .jssorn01 div:hover, .jssorn01 .av:hover {
+	background-color: #0066FF;
+}
+            .jssorn01 .av {
+	background-color: #090;
+}
+            .jssorn01 .dn, .jssorn01 .dn:hover { background-color: #555555; }
+
+
+
+
+            /* jssor slider direction navigator skin 05 css */
+            /*
+            .jssord05l              (normal)
+            .jssord05r              (normal)
+            .jssord05l:hover        (normal mouseover)
+            .jssord05r:hover        (normal mouseover)
+            .jssord05ldn            (mousedown)
+            .jssord05rdn            (mousedown)
+            */
+            .jssord05l, .jssord05r, .jssord05ldn, .jssord05rdn
+            {
+            	position: absolute;
+            	cursor: pointer;
+            	display: block;
+                background: url(img/d17.png) no-repeat;
+                overflow:hidden;
+            }
+            .jssord05l { background-position: -10px -40px; }
+            .jssord05r { background-position: -70px -40px; }
+            .jssord05l:hover { background-position: -130px -40px; }
+            .jssord05r:hover { background-position: -190px -40px; }
+            .jssord05ldn { background-position: -250px -40px; }
+            .jssord05rdn { background-position: -310px -40px; }
+			
+	
+	.readMore  {
+		z-index:10;	
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	position: absolute;
+	left: 816px;
+	top: 338px;
+	width: 100px;
+	height: 30px;
+	/* [disabled]background-color: #AAAAAA; */
+	color: #FFFFFF;
+
+        }
+	.regNow  {
+		z-index:10;	
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	position: absolute;
+	left: 636px;
+	top: 338px;
+	width: 100px;
+	height: 30px;
+	/* [disabled]background-color: #AAAAAA; */
+	color: #FFFFFF;
+
+        }
+        .readMore a:hover , .regNow a:hover 
+        {
+	color: #FFFF00;
+
+
+        }
+.readMore a, .regNow a, .readMore a:active , .regNow a:active 
+        {
+        	color: #ffffff;
+        	text-decoration: none;
+        }
+
